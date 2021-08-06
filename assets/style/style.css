@@ -430,7 +430,6 @@ nav a#openup {
     .what-i-do {
         grid-template-columns: 1fr;
     }
-
     }
 
     @media (min-width: 1281px) {
