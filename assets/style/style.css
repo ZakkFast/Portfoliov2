@@ -175,6 +175,10 @@ button {
      font-size: 1.3rem;
  }
 
+ img {
+     width: 100%;
+ }
+
  .hover figure:hover img {
     opacity: 1;
     -webkit-animation: flash 1.5s;
