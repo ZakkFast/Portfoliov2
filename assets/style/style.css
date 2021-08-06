@@ -160,6 +160,43 @@ button {
     padding-bottom: 20px;
 }
 
+.what-i-do {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+ }
+ 
+ .what-i-do h2 {
+   font-size: 2rem;
+ }
+
+ .what-i-do p {
+     font-size: 1.3rem;
+ }
+
+ .hover figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+  }
+    100% {
+        opacity: 1;
+    }
+}
+
 footer {
     width: 100%;
     margin-top: 3rem;
@@ -389,6 +426,11 @@ nav a#openup {
     footer .footer-cols {
         display: none;
     }
+
+    .what-i-do {
+        grid-template-columns: 1fr;
+    }
+
     }
 
     @media (min-width: 1281px) {
