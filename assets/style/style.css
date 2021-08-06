@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 70vh;
+    height: 50vh;
     position: relative;
     overflow-y: hidden;
 }
@@ -208,6 +208,25 @@ footer .footer-cols {
     color: #fff;
 }
 
+.contact-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main-container h2 {
+    font-size: 2.5rem;
+}
+
+.contact-title-container, .contact-options-container {
+    margin: 0rem;
+}
+
+.h-med {
+    height: 50vh;
+}
+
 nav {
     height: fit-content;
     width: 100%;
@@ -261,7 +280,7 @@ nav a#openup {
     }
     
     #showcase {
-        height: 75vh; 
+        height: 55vh; 
         width: 100vw;
     }
     
