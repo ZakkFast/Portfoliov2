@@ -10,6 +10,13 @@ A website where to can learn a bit about me and what I can do for you. There is 
 <img src='assets/images/zakkfastwebdesign.gif'>
 </pre>
 
+### Technologies Used
+Jquery<br>
+JavaScript<br>
+HTML<br>
+CSS<br>
+Bootstrap Framework<br>
+OpenWeatherMap API<br>
 
 
 ### Requirements
